@@ -15,7 +15,6 @@ int main() {
     for (int i = 0; i < SIZE; ++i)
         for (int j = 0; j < SIZE; ++j)
             cin >> m[i][j];
-
-    cout << sumMajorDiagonal(m);
+    cout << sumMajorDiagonal(m) << endl;
     return 0;
 }

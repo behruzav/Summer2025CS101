@@ -15,6 +15,6 @@ int main() {
     cin >> ch;
     cin.ignore();
     getline(cin, str);
-    cout << count(str, ch);///????
+    cout << count(str, ch);
     return 0;
 }

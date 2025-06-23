@@ -16,5 +16,6 @@ int main() {
     sort(nums.begin(), nums.end());
     for (int num : nums)
         cout << num << " ";
+
     return 0;
 }
